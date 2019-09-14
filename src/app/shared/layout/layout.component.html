@@ -1,0 +1,12 @@
+<div id="wrapper" [class.enlarged]="isEnlarged">
+  <miza-navbar></miza-navbar>
+  <miza-left-sidebar></miza-left-sidebar>
+  <div class="content-page">
+    <div class="content">
+      <div class="container-fluid">
+        <ng-content></ng-content>
+      </div>
+    </div>
+    <miza-footer></miza-footer>
+  </div>
+</div>

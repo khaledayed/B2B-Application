@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* =============
+   Icons
+============= */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import '~dripicons/webfont/webfont.css';
+@import '~line-awesome/css/line-awesome.min.css';
+@import '~weather-icons-npm/css/weather-icons.min.css';
+@import '~material-design-iconic-font/dist/css/material-design-iconic-font.min.css';
+@import '~ti-icons/css/themify-icons.css';
+
+/* =============
+   Themes : Choose one of these themes
+============= */
+
+@import 'assets/css/light.vertical.css';
+// @import 'assets/css/dark.vertical.css';
+// @import 'assets/css/metr.vertical.css';
+// @import 'assets/css/purple.vertical.css';
+// @import 'assets/css/material.vertical.css';
+// @import 'assets/css/material_dark.vertical.css';
+
+/* =============
+   Custom style
+============= */
+
+.page-title-box {
+    .page-title {
+        font-size: 1.25rem;
+        margin: 0;
+        line-height: 75px;
+        color: #323a46;
+    }
+    .page-title-right {
+        float: right;
+        margin-top: 22px;
+    }
+}
+
+/* =============
+   Angular-6-datatable
+============= */
+
+mfpaginator>ul:first-child {
+    float: left !important
+}

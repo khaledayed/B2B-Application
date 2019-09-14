@@ -1,0 +1,113 @@
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">MIZA</a></li>
+                    <li class="breadcrumb-item">Dashboard</li>
+                    <li class="breadcrumb-item active">Dashboard Products</li>
+                </ol>
+            </div>
+            <h4 class="page-title">Product Dashboard</h4>
+        </div>
+    </div>
+</div>
+  
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="portlet">
+            <div class="portlet-heading portlet-default">
+                <h3 class="portlet-title text-dark">
+                    Product1
+                </h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="bg-default" class="panel-collapse collapse show">
+                <div class="portlet-body">
+                    <ngx-chartjs [data]="indoorTempData" type="line" [options]="productOptions"></ngx-chartjs>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="portlet">
+            <div class="portlet-heading portlet-default">
+                <h3 class="portlet-title text-dark">
+                    Product2
+                </h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="bg-default" class="panel-collapse collapse show">
+                <div class="portlet-body">
+                    <ngx-chartjs [data]="outdoorTempData" type="line" [options]="productOptions"></ngx-chartjs>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="portlet">
+            <div class="portlet-heading portlet-default">
+                <h3 class="portlet-title text-dark">
+                    Product3
+                </h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="bg-default" class="panel-collapse collapse show">
+                <div class="portlet-body">
+                    <ngx-chartjs [data]="indoorBuyData" type="line" [options]="buyOptions"></ngx-chartjs>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="portlet">
+            <div class="portlet-heading portlet-default">
+                <h3 class="portlet-title text-dark">
+                    Product4
+                </h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="bg-default" class="panel-collapse collapse show">
+                <div class="portlet-body">
+                    <ngx-chartjs [data]="outdoorBuyData" type="line" [options]="buyOptions"></ngx-chartjs>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="portlet">
+            <div class="portlet-heading portlet-default">
+                <h3 class="portlet-title text-dark">
+                    Product5
+                </h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="bg-default" class="panel-collapse collapse show">
+                <div class="portlet-body">
+                    <ngx-chartjs [data]="indoorSaleData" type="line" [options]="saleOptions"></ngx-chartjs>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="portlet">
+            <div class="portlet-heading portlet-default">
+                <h3 class="portlet-title text-dark">
+                    Product6
+                </h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="bg-default" class="panel-collapse collapse show">
+                <div class="portlet-body">
+                    <ngx-chartjs [data]="outdoorSaleData" type="line" [options]="saleOptions"></ngx-chartjs>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
