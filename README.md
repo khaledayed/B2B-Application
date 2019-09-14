@@ -1,5 +1,11 @@
-# StarterAngularTemplate
+Interface of Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+<img src="./interface/dashboard.png" />
 
-<img src="assets/1.png/1.png" />
+Interface of products's table:
+
+<img src="./interface/table.png" />
+
+Interface of Form:
+
+<img src="./interface/form.png" />
