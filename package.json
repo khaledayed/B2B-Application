@@ -42,7 +42,7 @@
     "express": "^4.16.4",
     "line-awesome": "^1.0.2",
     "material-design-iconic-font": "^2.2.0",
-    "mongoose": "^5.4.1",
+    "mongoose": "^5.7.5",
     "ngx-bootstrap": "^3.1.4",
     "ngx-cookie-service": "^2.1.0",
     "ngx-socket-io": "^2.1.1",
