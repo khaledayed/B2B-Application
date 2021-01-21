@@ -47,7 +47,7 @@
     "ngx-cookie-service": "^2.1.0",
     "ngx-socket-io": "^2.1.1",
     "rxjs": "~6.3.3",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "ti-icons": "^0.1.2",
     "weather-icons": "^1.3.2",
     "weather-icons-npm": "^10.0.0",
